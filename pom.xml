@@ -39,12 +39,13 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version> <!-- Ensure you're using a recent version -->
+            <version>3.8.1</version> <!-- Ensure this version is compatible with your Java version -->
             <configuration>
-                <source>1.8</source> <!-- or another supported version like 11 -->
+                <source>1.8</source>
                 <target>1.8</target>
             </configuration>
         </plugin>
+        <!-- Other plugins -->
     </plugins>
 </build>
 
